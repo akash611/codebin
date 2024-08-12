@@ -11,11 +11,12 @@ import { Router } from '@angular/router';
   styleUrl: './signup.component.css'
 })
 export class SignupComponent {
-  constructor(){}
+  constructor(private router:Router){
+  }
 
   register(regForm:NgForm){
     console.log(regForm.value)
-    
+    this.router.navigate(['/login'])
 
   }
   reset(regForm:NgForm){
