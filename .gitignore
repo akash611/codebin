@@ -42,3 +42,9 @@ testem.log
 Thumbs.db
 ssh_tools.jsonc
 redhatkey.pem
+
+##firebasefiles
+.firebase
+.firebaserc
+firebase.json
+
